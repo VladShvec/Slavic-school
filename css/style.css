@@ -40,8 +40,6 @@ ul > li
 {
     border: 3px solid #fff;
     display: inline-block;
-    padding-top: 116px;
-    padding-bottom: 22px;
     margin-right:-5px;
     border-left: none;    
 }
@@ -56,6 +54,8 @@ nav
 nav a
 {
     padding: 21px;
+    display: block;
+    padding-top: 116px;
 }
 a
 {
