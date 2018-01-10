@@ -25,7 +25,7 @@ header
     left: 0;
     width: 100%;
     height: 142px;
-    z-index:10;
+    z-index:2;
     
 }
 .in
@@ -47,19 +47,15 @@ ul > li
 }
 nav 
 {   
-    top: 0;
-    text-align: right;
+    float: right;
 }
- header nav a
-{
-    display: block;
-}
-a, header nav a
+a
 {
     text-decoration: none;
     color: #fff;
     font-family: "SegoeUI";
     font-size: 20pt;
+    display: block;
 
 }
 footer
@@ -106,9 +102,6 @@ h1::before
     left: 270px;
     z-index: -10;
 }
-
-
-
 .tel
 {
     
