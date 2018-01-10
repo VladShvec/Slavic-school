@@ -29,7 +29,7 @@
          url('../fonts/SegoeUILight/SegoeUILight.woff') format('woff'),
          url('../fonts/SegoeUILight/SegoeUILight.ttf') format('ttf');
          font-style: none;
-    font-weight: bold;
+        font-weight: bold;
 }
 @font-face {
     font-family: 'SegoeUI';
@@ -48,6 +48,24 @@
          url('../fonts/SegoeUISemiBold/SegoeUISemiBold.eot?#iefix') format('embedded-opentype'),
          url('../fonts/SegoeUISemiBold/SegoeUISemiBold.woff') format('woff'),
          url('../fonts/SegoeUISemiBold/SegoeUISemiBold.ttf') format('ttf');
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     font-style: none;
     font-weight: bold;
 }
