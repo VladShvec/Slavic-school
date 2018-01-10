@@ -42,24 +42,27 @@ ul > li
     display: inline-block;
     padding-top: 116px;
     padding-bottom: 22px;
-    margin-right:-4px;
+    margin-right:-5px;
     border-left: none;    
 }
 li:first-child
 {
-    border:  3px solid #fff;
+    border: 3px solid #fff;
 }
 nav 
 {   
     text-align: right;
 }
-
+nav a
+{
+    padding: 21px;
+}
 a
 {
     text-decoration: none;
     color: #fff;
     font-family: "SegoeUI";
-    font-size: 20pt;
+    font-size: 20px;
 
 }
 footer
