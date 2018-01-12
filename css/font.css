@@ -32,7 +32,7 @@
          url('../fonts/SegoeUILight/SegoeUILight.woff') format('woff'),
          url('../fonts/SegoeUILight/SegoeUILight.ttf') format('ttf');
         font-weight: 300;
-        font-style: normыыal;
+        font-style: normal;
 }
 @font-face {
     font-family: 'SegoeUI';
