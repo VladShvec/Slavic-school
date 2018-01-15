@@ -243,3 +243,28 @@ h1::before
     top: 642px;
     padding-right: 250px;
 }
+h3
+{
+    padding-left: 70px;
+    padding-top: 70px;
+}
+.img
+{
+    float: right;
+    max-width:  50%;
+}
+.text2
+{
+    padding-left:70px;
+    
+   
+}
+span
+{
+    color: #cfa420;
+}
+.img2
+{
+    float: right;
+    max-width:  50%; 
+}
