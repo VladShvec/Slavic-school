@@ -54,6 +54,11 @@ li:first-child
     border: 4px solid #fff;
     border-top: none;    
 }
+li:last-child
+{
+     border: 4px solid #fff;
+    border-top: none;
+}
 nav 
 {   
     text-align: right;
@@ -170,6 +175,11 @@ li:first-child
     border: 4px solid #fff;
     border-top: none;    
 }
+li:last-child
+{
+     border: 4px solid #fff;
+    border-top: none;
+}
 .logo
 {
     float: left;
@@ -271,4 +281,6 @@ span
     float: left;
     max-width:  50%; 
     padding-right: 20px;
+    padding-top: 50px;
+   
 }
