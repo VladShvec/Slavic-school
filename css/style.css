@@ -225,6 +225,7 @@ li:first-child
     text-align: left;
     font-family: 'SegoeUI';
     z-index: 1;
+    left: 150px;
 }
 h1::before
 {
@@ -239,7 +240,7 @@ h1::before
 }
 .text
 {
-    padding-left: 150px;
+    padding-left: 290px;
     position: absolute;
     top: 642px;
     padding-right: 50px;
