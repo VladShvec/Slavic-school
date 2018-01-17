@@ -235,7 +235,7 @@ li:last-child
     text-align: left;
     font-family: 'SegoeUI';
     z-index: 1;
-    left: 150px;
+    left: 160px;
 }
 h1::before
 {
@@ -261,7 +261,7 @@ h3
     padding-top: 70px;
     font-weight: bold;
 }
-.img
+section .img
 {
     float: right;
     max-width:  50%;
@@ -284,3 +284,147 @@ span
     padding-top: 75px;
    
 }
+
+
+/*postpleniye*/
+ #postup .wrapper
+{
+    position: relative;
+    max-width: 100%;
+    min-width: 980px;
+    font-family: "SegoeUI";
+    box-sizing: border-box;
+    padding-bottom: 300px;
+    min-height: 100%;
+    background-color: #fff;
+    color: #000;
+    
+}
+.background
+{
+   
+    background-image: url(../image/345.jpg);
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-position: top center ;
+    height: 483px;
+    width: 100%;
+}
+#postup h1
+{
+
+    
+    font-size: 60px;
+    top: -270px;
+    color: #000;
+    width: 727px;
+    margin-left: 30px;
+    position: relative;
+    text-align: left;
+    font-family: 'SegoeUI';
+    z-index: 1;
+    left: 150px;
+}
+h1::before
+{
+    position: absolute;
+    content: "";
+    height: 278px;
+    width: 253px;
+    background-color:#e9b926;
+    top: -70px; 
+    left: -180px;
+    z-index: -10;
+}
+.textpost
+{
+    padding-left: 280px;
+    position: absolute;
+    top: 692px;
+    padding-right: 50px;
+}
+strong
+{
+font-weight: bold;
+}
+
+/*about teachers*/
+
+#teachs .wrapper
+{
+    position: relative;
+    max-width: 100%;
+    min-width: 980px;
+    font-family: "SegoeUI";
+    box-sizing: border-box;
+    padding-bottom: 300px;
+    min-height: 100%;
+    background-color: #fff;
+    color: #000;
+    
+}
+.background
+{
+   
+    background-image: url(../image/345.jpg);
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-position: top center ;
+    height: 483px;
+    width: 100%;
+}
+#teachs h1
+{
+
+    
+    font-size: 60px;
+    top: -270px;
+    color: #000;
+    width: 727px;
+    margin-left: 30px;
+    position: relative;
+    text-align: left;
+    font-family: 'SegoeUI';
+    z-index: 1;
+    left: 150px;
+}
+h1::before
+{
+    position: absolute;
+    content: "";
+    height: 278px;
+    width: 253px;
+    background-color:#e9b926;
+    top: -70px; 
+    left: -180px;
+    z-index: -10;
+}
+.textpost , .textpost2
+{
+    padding-left: 280px;
+    position: absolute;
+    top: 692px;
+    padding-right: 50px;
+}
+strong
+{
+    font-weight: bold;
+}
+.nameteach
+{
+    white-space: 16pxpx;
+}
+.imgteach
+{
+    float: right;
+    width: 50%;
+    padding-bottom: 150px;
+}
+.imgteach2
+{
+    float: left;
+    width: 50%;
+    padding-bottom: 150px;
+    padding-right: 20px;
+}
+
