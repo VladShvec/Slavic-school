@@ -223,13 +223,16 @@ li:last-child
     height: 483px;
     width: 100%;
 }
-
+main
+{
+    margin-top:70px;
+}
 #school h1
 {
 
-    margin-bottom: 0px;
+    
     font-size: 60px;
-    top: 80px;
+    
     color: #000;
     width: 727px;
     margin-left: 20px;
@@ -320,7 +323,7 @@ span
 
     margin-bottom: 300px;
     font-size: 60px;
-    top: 80px;
+   
     color: #000;
     width: 727px;
     margin-left: 20px;
@@ -384,7 +387,6 @@ font-weight: bold;
 
     margin-bottom: 300px;
     font-size: 60px;
-    top: 80px;
     color: #000;
     width: 727px;
     margin-left: 20px;
@@ -465,7 +467,6 @@ strong
 
     margin-bottom: 40px;
     font-size: 60px;
-    top: 80px;
     color: #000;
     width: 727px;
     margin-left: 20px;
@@ -533,7 +534,6 @@ h1::before
 
     margin-bottom: 50px;
     font-size: 60px;
-    top: 80px;
     color: #000;
     width: 727px;
     margin-left: 20px;
