@@ -99,7 +99,7 @@ p
     font-size: 25px;
     
 }
-  main
+ #index main
 {
     padding-top: 392px;
 }
@@ -223,12 +223,13 @@ li:last-child
     height: 483px;
     width: 100%;
 }
+
 #school h1
 {
 
-    
+    margin-bottom: 0px;
     font-size: 60px;
-    top: -270px;
+    top: 80px;
     color: #000;
     width: 727px;
     margin-left: 20px;
@@ -249,11 +250,14 @@ h1::before
     left: -151px;
     z-index: -10;
 }
+main
+{
+    padding-top: 50px;
+}
+
 .text
 {
     padding-left: 290px;
-    position: absolute;
-    top: 642px;
     padding-right: 50px;
 }
 h3
@@ -314,17 +318,17 @@ span
 #postup h1
 {
 
-    
+    margin-bottom: 300px;
     font-size: 60px;
-    top: -270px;
+    top: 80px;
     color: #000;
     width: 727px;
-    margin-left: 30px;
+    margin-left: 20px;
     position: relative;
     text-align: left;
     font-family: 'SegoeUI';
     z-index: 1;
-    left: 150px;
+    left: 160px;
 }
 h1::before
 {
@@ -337,12 +341,12 @@ h1::before
     left: -180px;
     z-index: -10;
 }
+
 .textpost
 {
     padding-left: 280px;
-    position: absolute;
-    top: 692px;
     padding-right: 50px;
+    
 }
 strong
 {
@@ -375,19 +379,20 @@ font-weight: bold;
     width: 100%;
 }
 #teachs h1
+
 {
 
-    
+    margin-bottom: 300px;
     font-size: 60px;
-    top: -270px;
+    top: 80px;
     color: #000;
     width: 727px;
-    margin-left: 30px;
+    margin-left: 20px;
     position: relative;
     text-align: left;
     font-family: 'SegoeUI';
     z-index: 1;
-    left: 150px;
+    left: 160px;
 }
 h1::before
 {
@@ -458,17 +463,17 @@ strong
 #news h1
 {
 
-    
+    margin-bottom: 40px;
     font-size: 60px;
-    top: -270px;
+    top: 80px;
     color: #000;
     width: 727px;
-    margin-left: 30px;
+    margin-left: 20px;
     position: relative;
     text-align: left;
     font-family: 'SegoeUI';
     z-index: 1;
-    left: 150px;
+    left: 160px;
 }
 h1::before
 {
@@ -484,15 +489,12 @@ h1::before
 .textpost3
 {
     padding-left: 280px;
-    position: absolute;
-    top: 652px;
     padding-right: 50px;
 }
 .textpost4
 {
     padding-left: 280px;
-    position: absolute;
-    top: 752px;
+
     padding-right: 50px;
 }
 .newsimg
@@ -529,17 +531,17 @@ h1::before
 #cont h1
 {
 
-    
+    margin-bottom: 50px;
     font-size: 60px;
-    top: -270px;
+    top: 80px;
     color: #000;
     width: 727px;
-    margin-left: 30px;
+    margin-left: 20px;
     position: relative;
     text-align: left;
     font-family: 'SegoeUI';
     z-index: 1;
-    left: 150px;
+    left: 160px;
 }
 h1::before
 {
@@ -555,8 +557,6 @@ h1::before
 .textcont
 {
     padding-left: 280px;
-    position: absolute;
-    top: 652px;
     padding-right: 50px;
 
 }
