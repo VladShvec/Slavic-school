@@ -429,3 +429,32 @@ section:after
 {
     padding-top: 10px;
 }
+
+
+
+/*media*/
+/*nav a
+{
+    padding: 21px;
+    display: block;
+    padding-top: 116px;
+    font-size: 27px;
+    letter-spacing: 0.5px;
+}*/
+
+@media screen and (max-width: 1030px)
+{
+    nav a 
+    {
+       font-size: 22px; 
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+    nav a 
+    {
+       font-size: 10px; 
+        
+    }
+}
