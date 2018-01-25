@@ -6,12 +6,8 @@ body,html
     font-size: 24px;
     position: relative;
 }
- #index .wrapper
+.wrapper
 {
-    background-image: url(../image/123.jpg);
-    background-size: cover;  
-    background-repeat: no-repeat;
-    background-position: top center ;
     position: relative;
     max-width: 100%;
     min-width: 980px;
@@ -19,7 +15,15 @@ body,html
     box-sizing: border-box;
     padding-bottom: 300px;
     min-height: 100%;
-    
+    background-color: #fff;
+    color: #000;
+}
+ #index .wrapper
+{
+    background-image: url(../image/123.jpg);
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-position: top center ;
 }
 header
 {
@@ -103,33 +107,36 @@ p
 {
     padding-top: 392px;
 }
-#index h1
+ h1
 {
-    
-    font-size: 60px;
-    
-    color: #fff;
-    width: 727px;
-    margin-left: 220px;
+
+    margin-top:70px;
+    font-size: 60px;   
+    color: #000;
+    max-width: 727px;
+    margin-left: 180px;
     position: relative;
     text-align: left;
     font-family: 'SegoeUI';
     z-index: 1;
 }
-#index h1::before
+h1::before
 {
     position: absolute;
     content: "";
-    height: 421px;
-    width: 269px;
+    height: 278px;
+    width: 253px;
     background-color:#e9b926;
-    top: -180px; 
+    top: -70px; 
     left: -151px;
     z-index: -10;
 }
-
-
-
+#index h1
+{
+    color: #fff;
+    width: 727px;
+    margin-left: 220px;
+}
 .tel
 {
     
@@ -190,19 +197,7 @@ li:last-child
 }
 
 
- #school .wrapper
-{
-    position: relative;
-    max-width: 100%;
-    min-width: 980px;
-    font-family: "SegoeUI";
-    box-sizing: border-box;
-    padding-bottom: 300px;
-    min-height: 100%;
-    background-color: #fff;
-    color: #000;
-    
-}
+
 #header
 
 {
@@ -224,31 +219,7 @@ li:last-child
     width: 100%;
 }
 
-#school h1
-{
 
-    margin-top:70px;
-    font-size: 60px;   
-    color: #000;
-    width: 727px;
-    margin-left: 20px;
-    position: relative;
-    text-align: left;
-    font-family: 'SegoeUI';
-    z-index: 1;
-    left: 160px;
-}
-h1::before
-{
-    position: absolute;
-    content: "";
-    height: 278px;
-    width: 253px;
-    background-color:#e9b926;
-    top: -70px; 
-    left: -151px;
-    z-index: -10;
-}
 main
 {
     padding-top: 50px;
@@ -290,19 +261,6 @@ span
 
 
 /*postpleniye*/
- #postup .wrapper
-{
-    position: relative;
-    max-width: 100%;
-    min-width: 980px;
-    font-family: "SegoeUI";
-    box-sizing: border-box;
-    padding-bottom: 300px;
-    min-height: 100%;
-    background-color: #fff;
-    color: #000;
-    
-}
 #postup .background
 {
    
@@ -312,32 +270,6 @@ span
     background-position: top center ;
     height: 483px;
     width: 100%;
-}
-#postup h1
-{
-     margin-top:70px;
-     margin-bottom: 300px;
-    font-size: 60px;
-   
-    color: #000;
-    width: 727px;
-    margin-left: 20px;
-    position: relative;
-    text-align: left;
-    font-family: 'SegoeUI';
-    z-index: 1;
-    left: 160px;
-}
-h1::before
-{
-    position: absolute;
-    content: "";
-    height: 278px;
-    width: 253px;
-    background-color:#e9b926;
-    top: -70px; 
-    left: -180px;
-    z-index: -10;
 }
 
 .textpost
@@ -353,19 +285,6 @@ font-weight: bold;
 
 /*about teachers*/
 
-#teachs .wrapper
-{
-    position: relative;
-    max-width: 100%;
-    min-width: 980px;
-    font-family: "SegoeUI";
-    box-sizing: border-box;
-    padding-bottom: 300px;
-    min-height: 100%;
-    background-color: #fff;
-    color: #000;
-    
-}
 #teachs .background
 {
    
@@ -376,31 +295,7 @@ font-weight: bold;
     height: 483px;
     width: 100%;
 }
-#teachs h1
 
-{
-     margin-top:70px;
-    font-size: 60px;
-    color: #000;
-    width: 727px;
-    margin-left: 20px;
-    position: relative;
-    text-align: left;
-    font-family: 'SegoeUI';
-    z-index: 1;
-    left: 160px;
-}
-h1::before
-{
-    position: absolute;
-    content: "";
-    height: 278px;
-    width: 253px;
-    background-color:#e9b926;
-    top: -70px; 
-    left: -180px;
-    z-index: -10;
-}
 .textpost , .textpost2 
 {
     padding-left: 280px;
@@ -431,19 +326,7 @@ strong
 
 /*about news*/
 
-#news .wrapper
-{
-    position: relative;
-    max-width: 100%;
-    min-width: 980px;
-    font-family: "SegoeUI";
-    box-sizing: border-box;
-    padding-bottom: 300px;
-    min-height: 100%;
-    background-color: #fff;
-    color: #000;
-    
-}
+
 #news .background
 {
    
@@ -454,31 +337,7 @@ strong
     height: 483px;
     width: 100%;
 }
-#news h1
-{
-     margin-top:70px;
-    margin-bottom: 70px;
-    font-size: 60px;
-    color: #000;
-    width: 727px;
-    margin-left: 20px;
-    position: relative;
-    text-align: left;
-    font-family: 'SegoeUI';
-    z-index: 1;
-    left: 160px;
-}
-h1::before
-{
-    position: absolute;
-    content: "";
-    height: 278px;
-    width: 253px;
-    background-color:#e9b926;
-    top: -70px; 
-    left: -180px;
-    z-index: -10;
-}
+
 .textpost3 , .textpost_dlc
 {
     padding-left: 280px;
@@ -497,19 +356,7 @@ h1::before
 }
 
 /*Контакты*/
-#cont .wrapper
-{
-    position: relative;
-    max-width: 100%;
-    min-width: 980px;
-    font-family: "SegoeUI";
-    box-sizing: border-box;
-    padding-bottom: 300px;
-    min-height: 100%;
-    background-color: #fff;
-    color: #000;
-    
-}
+
 #cont .background
 {
    
@@ -520,31 +367,7 @@ h1::before
     height: 483px;
     width: 100%;
 }
-#cont h1
-{
-     margin-top:70px;
-    margin-bottom: 50px;
-    font-size: 60px;
-    color: #000;
-    width: 727px;
-    margin-left: 20px;
-    position: relative;
-    text-align: left;
-    font-family: 'SegoeUI';
-    z-index: 1;
-    left: 160px;
-}
-h1::before
-{
-    position: absolute;
-    content: "";
-    height: 278px;
-    width: 253px;
-    background-color:#e9b926;
-    top: -70px; 
-    left: -180px;
-    z-index: -10;
-}
+
 .textcont
 {
     padding-left: 280px;
@@ -565,19 +388,7 @@ section
 }
  
 /*news second */
-#news2 .wrapper
-{
-    position: relative;
-    max-width: 100%;
-    min-width: 980px;
-    font-family: "SegoeUI";
-    box-sizing: border-box;
-    padding-bottom: 300px;
-    min-height: 100%;
-    background-color: #fff;
-    color: #000;
-    
-}
+
 #news2 .background
 {
    
@@ -588,31 +399,7 @@ section
     height: 483px;
     width: 100%;
 }
-#news2 h1
-{
-     margin-top:70px;
-    
-    font-size: 60px;
-    color: #000;
-    width: 727px;
-    margin-left: 20px;
-    position: relative;
-    text-align: left;
-    font-family: 'SegoeUI';
-    z-index: 1;
-    left: 160px;
-}
-h1::before
-{
-    position: absolute;
-    content: "";
-    height: 278px;
-    width: 253px;
-    background-color:#e9b926;
-    top: -70px; 
-    left: -180px;
-    z-index: -10;
-}
+
 .links a
 {
     font-weight: bold;
