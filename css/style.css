@@ -143,6 +143,18 @@ h1::before
     color: #fff;
     width: 727px;
     margin-left: 220px;
+    
+}
+#index h1:before
+{
+    position: absolute;
+    content: "";
+    height: 378px;
+    width: 253px;
+    background-color:#e9b926;
+    top: -70px; 
+    left: -170px;
+    z-index: -10;
 }
 .tel
 {
@@ -450,11 +462,3 @@ section:after
     }
 }
 
-@media screen and (max-width: 800px)
-{
-    nav a 
-    {
-       font-size: 20px; 
-        
-    }
-}
