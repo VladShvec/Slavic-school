@@ -113,7 +113,8 @@ p
 }
  h1
 {
-    font-size: 60px;   
+    font-size: 60px;  
+    line-height: 0.9;
     color: #000;
     max-width: 727px;
     position: relative;
@@ -341,18 +342,6 @@ section:after
     text-decoration: underline;
 }
 
-
-
-/*media*/
-/*nav a
-{
-    padding: 21px;
-    display: block;
-    padding-top: 116px;
-    font-size: 27px;
-    letter-spacing: 0.5px;
-}*/
-
 @media screen and (max-width: 1030px)
 {
     nav a 
@@ -363,4 +352,12 @@ section:after
 .size
 {
     font-size: 36px;
+}
+#news h2
+{
+    font-size: 36px;
+}
+.content_header > p
+{
+    padding-top: 50px;
 }
